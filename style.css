@@ -1,0 +1,68 @@
+.judulSuit {
+  color: #af4a02;
+  font-weight: bold;
+  text-align: center;
+  text-shadow: 0 3px 2px black;
+}
+.gajah,
+.orang,
+.semut {
+  height: 300px;
+  position: relative;
+}
+.orang,
+.semut {
+  width: 154.3px;
+}
+.gajah {
+  width: 317px;
+  margin-right: 125px;
+}
+.orang {
+  margin-left: 60px;
+}
+.semut {
+  margin-right: 25px;
+}
+.suitPilih a:active img {
+  transform: scale(0.8);
+}
+.suitPilih a span {
+  font-style: algerian;
+  font-size: 30px;
+  color: salmon;
+  font-weight: bold;
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000,
+    1px 1px 0 #000;
+  display: block;
+  height: 300px;
+  position: absolute;
+  text-align: center;
+  line-height: 300px;
+  top: 0;
+  transition: 0.1s;
+  transform: scale(0);
+}
+.suitPilih a:hover span {
+  transform: scale(1);
+}
+.orang a span {
+  width: 123px;
+}
+.semut a span {
+  width: 143px;
+}
+.gajah a span {
+  width: 317px;
+}
+.ulang {
+  margin-top: 180px;
+}
+.ulang a {
+  font-size: 60px;
+  text-decoration: none;
+  margin-left: 5px;
+}
+.ulang a:hover span {
+  color: #0d6efd;
+}
